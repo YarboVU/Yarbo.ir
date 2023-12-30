@@ -1,0 +1,123 @@
+@import url(fontsetup.css);
+
+:root{
+ /* Color Variables */
+    --main-bg: #0A0D11;
+    --sec-bg: #242424;
+    --blured-bg: rgba(10, 13, 17, 0.80); /* have to add with blured efect variable */
+    --border-clr: #242424;
+    --approve-clr: #2FC179;
+    --cancel-clr: #B53F3F;
+    --active-clr: #3A8DE5;
+
+    --headerCircle-first-color: rgba(36, 36, 36, 0.80);
+    --headerCircle-sec-color: rgba(36, 36, 36, 0.60);
+    --headerCircle-third-color: rgba(36, 36, 36, 0.30);
+
+    --blueCircle-first-color: var(--active-clr);
+    --blueCircle-sec-color: rgba(58, 141, 229, 0.60);
+    --blueCircle-third-color: rgba(58, 141, 229, 0.60);
+    
+    --forGamer-first-color: var(--approve-clr);
+    --forGamer-sec-color: rgba(47, 193, 121, 0.60);
+    --forGamer-third-color: rgba(47, 193, 121, 0.60);
+
+    --forProgrammer-first-color: var(--active-clr);
+    --forProgrammer-sec-color: rgba(58, 141, 229, 0.60);
+    --forProgrammer-third-color: rgba(58, 141, 229, 0.60);
+    
+    --forTrader-first-color: var(--cancel-clr);
+    --forTrader-sec-color: rgba(181, 63, 63, 0.60);
+    --forTrader-third-color: rgba(181, 63, 63, 0.60);
+
+    --forStudent-first-color: var(--sec-bg);
+    --forStudent-sec-color: rgba(36, 36, 36, 0.60);
+    --forStudent-third-color: rgba(36, 36, 36, 0.60);
+
+    --main-font-clr: #FDFDFD;
+    --sec-font-clr: #7C7C7C;
+    --third-font-clr: #0A0D11;
+
+ /* Font Variables */
+   --FA-DSK-big-num: 900 50px/80px IRANSansXFaNum;
+   --FA-DSK-num: 500 16px/25.6px IRANSansXFaNum;
+   --FA-MB-big-num: 900 35px/56px IRANSansXFaNum;
+   --FA-MB-num: 500 14px/25.2px IRANSansXFaNum;
+   --FA-DSK-trade-big-num: bold 30px/48px IRANSansXFaNum;
+
+   --FA-DSK-intro-txt: 900 60px/96px IRANSansX;
+   --FA-DSK-header-txt: 900 28px/50.4px IRANSansX;
+   --FA-DSK-semi-header-txt: 800 20px/36px IRANSansX;
+   --FA-DSK-normal-txt: 500 16px/28.8px IRANSansX;
+   --FA-DSK-small-txt: 500 13px/23.4px IRANSansX;
+
+   --FA-MB-intro-txt: 900 35px/63px IRANSansX;
+   --FA-MB-header-txt: 900 24px/43.2px IRANSansX;
+   --FA-MB-semi-header-txt: 800 17px/30.6px IRANSansX;
+   --FA-MB-normal-txt: 500 14px/25.2px IRANSansX;
+   --FA-MB-small-txt: 500 11px/19.8px IRANSansX;
+
+   --EN-DSK-big-num: ;
+   --EN-DSK-num: ;
+   --EN-MB-big-num: ;
+   --EN-MB-num: ;
+   --EN-DSK-trade-big-num: ;
+
+   --EN-DSK-intro-txt: ;
+   --EN-DSK-header-txt: ;
+   --EN-DSK-semi-header-txt: ;
+   --EN-DSK-normal-txt: ;
+   --EN-DSK-small-txt: ;
+
+   --EN-MB-intro-txt: ;
+   --EN-MB-header-txt: ;
+   --EN-MB-semi-header-txt: ;
+   --EN-MB-normal-txt: ;
+   --EN-MB-small-txt: ;
+
+   --CODE-DSK-txt: 500 18px/30.6px IntelOne;
+
+ 
+ /* Efect Variables */
+    --blured-efect: 37.5px;
+
+ /* Size Variables */
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	direction: rtl;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: IRANSansX;
+   -moz-font-feature-settings: "ss04";
+   -webkit-font-feature-settings: "ss04";
+   font-feature-settings: "ss04" !important;
+	vertical-align: baseline;
+}ol, ul {
+	list-style: none;
+}blockquote, q {
+	quotes: none;
+}blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+   background-color: var(--main-bg);
+}
