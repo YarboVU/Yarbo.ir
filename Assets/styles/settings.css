@@ -79,9 +79,10 @@
 
  
  /* Efect Variables */
-    --blured-efect: 37.5px;
+   --blured-effect: blur(37.5px);
 
  /* Size Variables */
+   --DSK-margin: 150px;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -120,4 +121,8 @@ time, mark, audio, video {
 }
 body {
    background-color: var(--main-bg);
+   overflow-x: hidden;
+}
+main, footer{
+   margin: 0 var(--DSK-margin);
 }
