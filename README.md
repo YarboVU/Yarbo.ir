@@ -39,4 +39,5 @@ All pages(may be updated):
 - ❌ Single Podcast Page
 - ⭕ Login Page and Pop-outs
 - ❌ Profile Page
+- ⭕ Report Page
  
