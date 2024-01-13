@@ -20,9 +20,9 @@ This set of fonts are used in this project under the license: (0LMKTA5E)
 @font-face {
 	font-family: IRANSansX;
 	font-style: normal;
-	font-weight: 500;
-	src: url('../fonts/woff/IRANSansX-Medium.woff') format('woff'),   
-	url('../fonts/woff2/IRANSansX-Medium.woff2') format('woff2');		 
+	font-weight: 400;
+	src: url('../fonts/woff/IRANSansX-Regular.woff') format('woff'),   
+	url('../fonts/woff2/IRANSansX-Regular.woff2') format('woff2');		 
 }
 
 @font-face {
@@ -60,9 +60,9 @@ This set of fonts are used in this project under the license: (0LMKTA5E)
 @font-face {
 	font-family: IRANSansX-num;
 	font-style: normal;
-	font-weight: 500;
-	src: url('../fonts/woff/IRANSansXFaNum-Medium.woff') format('woff'),   
-	url('../fonts/woff2/IRANSansXFaNum-Medium.woff2') format('woff2');		 
+	font-weight: 400;
+	src: url('../fonts/woff/IRANSansXFaNum-Regular.woff') format('woff'),   
+	url('../fonts/woff2/IRANSansXFaNum-Regular.woff2') format('woff2');		 
 }
 
 @font-face {
