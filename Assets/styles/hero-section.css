@@ -1,0 +1,9 @@
+h1{
+    font: var(--FA-DSK-intro-txt);
+    color: #fff;
+    z-index: -99;
+}
+#c-frame{
+    background-color: #0A0D11;
+    border-radius: 20px;
+}
