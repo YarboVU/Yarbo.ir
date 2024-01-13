@@ -4,7 +4,7 @@
  /* Color Variables */
     --main-bg: #0A0D11;
     --sec-bg: #242424;
-    --blured-bg: rgba(10, 13, 17, 0.80); /* have to add with blured efect variable */
+    --blured-bg: rgba(10, 13, 17, 0.80); /* have to be added with blured efect variable */
     --border-clr: #242424;
     --approve-clr: #2FC179;
     --cancel-clr: #B53F3F;
@@ -40,22 +40,22 @@
 
  /* Font Variables */
    --FA-DSK-big-num: 900 50px/80px IRANSansXFaNum;
-   --FA-DSK-num: 500 16px/25.6px IRANSansXFaNum;
+   --FA-DSK-num: 400 15px/25.2px IRANSansXFaNum;
    --FA-MB-big-num: 900 35px/56px IRANSansXFaNum;
-   --FA-MB-num: 500 14px/25.2px IRANSansXFaNum;
+   --FA-MB-num: 400 14px/25.2px IRANSansXFaNum;
    --FA-DSK-trade-big-num: bold 30px/48px IRANSansXFaNum;
 
    --FA-DSK-intro-txt: 900 60px/96px IRANSansX;
    --FA-DSK-header-txt: 900 28px/50.4px IRANSansX;
    --FA-DSK-semi-header-txt: 800 20px/36px IRANSansX;
-   --FA-DSK-normal-txt: 500 16px/28.8px IRANSansX;
-   --FA-DSK-small-txt: 500 13px/23.4px IRANSansX;
+   --FA-DSK-normal-txt: 400 15px/27px IRANSansX;
+   --FA-DSK-small-txt: 400 13px/23.4px IRANSansX;
 
    --FA-MB-intro-txt: 900 35px/63px IRANSansX;
    --FA-MB-header-txt: 900 24px/43.2px IRANSansX;
    --FA-MB-semi-header-txt: 800 17px/30.6px IRANSansX;
-   --FA-MB-normal-txt: 500 14px/25.2px IRANSansX;
-   --FA-MB-small-txt: 500 11px/19.8px IRANSansX;
+   --FA-MB-normal-txt: 400 14px/25.2px IRANSansX;
+   --FA-MB-small-txt: 400 11px/19.8px IRANSansX;
 
    --EN-DSK-big-num: ;
    --EN-DSK-num: ;
@@ -83,6 +83,7 @@
 
  /* Size Variables */
    --DSK-margin: 150px;
+   --MB-margin: 25px;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -122,7 +123,8 @@ time, mark, audio, video {
 body {
    background-color: var(--main-bg);
    overflow-x: hidden;
+   max-width: 2560px;
 }
-main, footer{
+header, main, footer{
    margin: 0 var(--DSK-margin);
 }
