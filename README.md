@@ -14,7 +14,7 @@ Subsets:
 - ❌ Yarbo Charity
 
 Services:
-- ❌ Yarbo Skill Encyclopedia
+- ⭕ Yarbo Skill Encyclopedia
 - ❌ Yarbo Online Programming Environment
 - ❌ Yarbo Ping Reducer DNS
 
@@ -26,7 +26,7 @@ All pages(may be updated):
 - ❌ Yarbo Crypto Page
 - ❌ Yarbo Charity Page
 - ❌ Yarbo Game Page
-- ❌ Encyclopedia
+- ⭕ Encyclopedia
 - ❌ Online Prog. Env.
 - ❌ Ping Reducer
 - ❌ General Guide Page
