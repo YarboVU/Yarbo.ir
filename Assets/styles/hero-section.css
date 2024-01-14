@@ -1,9 +1,38 @@
-h1{
-    font: var(--FA-DSK-intro-txt);
-    color: #fff;
+.hero-section{
     z-index: -99;
 }
+.hero-text{
+    font: var(--FA-DSK-intro-txt);
+    color: var(--main-font-clr);
+    max-width: 600px;
+}
 #c-frame{
-    background-color: #0A0D11;
+    background-color: var(--main-bg);
     border-radius: 20px;
+}
+.c-frame-container{
+    max-width: 500px;
+    max-height: 700px;
+    position: relative;
+    float: left;
+    margin-left: 50px;
+    z-index: -99;
+}
+.c-frame-sec-bg-border, .c-frame-bg-border{
+    border: var(--main-border);
+    position: absolute;
+    border-radius: 20px;
+    z-index: -99;
+}
+.c-frame-bg-border{
+    width: 280px;
+    height: 500px;
+    bottom: -50px;
+    right: -50px;
+}
+.c-frame-sec-bg-border{
+    width: 330px;
+    height: 400px;
+    top: -50px;
+    left: -50px;
 }
