@@ -9,6 +9,7 @@ header{
     top: 20px;
     cursor: default;
     border-radius: 20px;
+    z-index: 1;
 }
 nav{
     display: flex;
