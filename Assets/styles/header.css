@@ -20,10 +20,15 @@ nav{
 }
 .nav-item-link{
     cursor: pointer;
-    color: var(--main-font-clr);
+    color: var(--sec-font-clr);
     text-decoration: none;
 }
+.nav-item-link:hover{
+    color: var(--main-font-clr);
+    transition: .3s;
+}
 .nav-login-item, .nav-lang-item{
+    color: var(--main-font-clr);
     border: 1px solid var(--border-clr);
     border-radius: 10px;
 }
