@@ -104,12 +104,12 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
+   white-space: 0;
 	font-size: 100%;
 	font-family: IRANSansX;
    -moz-font-feature-settings: "ss04";
    -webkit-font-feature-settings: "ss04";
    font-feature-settings: "ss04" !important;
-	vertical-align: baseline;
 }ol, ul {
 	list-style: none;
 }blockquote, q {
@@ -131,4 +131,7 @@ header, main, footer{
 }
 main{
    z-index: -99;
+}
+.arrow-reverse{
+   transform: rotate(180deg);
 }

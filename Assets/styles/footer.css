@@ -55,3 +55,20 @@ footer{
     max-width: 410px;
     min-width: 410px;
 }
+.footer-button{
+    display: inline-flex;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: var(--main-border);
+    border-radius: 10px;
+}
+.footer-button:first-child{
+    margin-left: 5px;
+}
+.footer-button-img{
+    padding: 12px;
+}
+.footer-button:hover{
+    background-color: var(--active-clr);
+    transition: .3s;
+}
