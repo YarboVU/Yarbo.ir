@@ -126,7 +126,7 @@ body {
    overflow-x: hidden;
    max-width: 2560px;
 }
-header, main, footer{
+header, main, footer, .subset-popout, .service-popout, .contact-popout, .language-popout, .login-popout{
    margin: 0 var(--DSK-margin);
 }
 main{
