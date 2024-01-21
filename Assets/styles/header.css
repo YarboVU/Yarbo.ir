@@ -1,7 +1,7 @@
 header{
     background-color: var(--blured-bg);
     backdrop-filter: var(--blured-effect);
-    padding: 25px 20px;
+    padding: 15px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,44 +13,34 @@ header{
 }
 nav{
     display: flex;
+    align-items: center;
 }
 .nav-item{
-    display: inline;
-    font: var(--FA-DSK-normal-txt);
+    display: inline-block;
+    margin-left: 40px;
 }
 .nav-item-link{
-    cursor: pointer;
-    color: var(--sec-font-clr);
+    font: var(--FA-DSK-normal-txt);
     text-decoration: none;
+    color: var(--sec-font-clr);
 }
 .nav-item-link:hover{
     color: var(--main-font-clr);
     transition: .3s;
 }
-.nav-login-item, .nav-lang-item{
-    color: var(--main-font-clr);
-    border: 1px solid var(--border-clr);
-    border-radius: 10px;
-}
-.nav-login-item:hover, .nav-lang-item:hover{
+.nav-button:hover{
     background-color: var(--active-clr);
-    transition: 300ms;
-
+    transition: .3s;
 }
-.nav-login-item{
-    padding: 15px 30px;
+.nav-button{
+    display: inline-flex;
+    border: var(--main-border);
+    border-radius: 10px;
+    margin-top: 8px;
 }
-.nav-lang-item{
-    position: relative;
-    padding: 15px 27px;
-    margin: 0 10px 0 10px;
+.nav-button-img{
+    padding: 12px;
 }
-.lang-select{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.nav-link{
-    margin-left: 40px;
+.nav-button:first-child{
+    margin-left: 5px;
 }

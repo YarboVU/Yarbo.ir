@@ -58,7 +58,6 @@ footer{
 .footer-button{
     display: inline-flex;
     margin-top: 10px;
-    box-sizing: border-box;
     border: var(--main-border);
     border-radius: 10px;
 }
