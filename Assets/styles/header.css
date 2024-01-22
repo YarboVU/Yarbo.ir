@@ -49,16 +49,15 @@ nav{
 .subset-popout, .service-popout{
     background-color: var(--blured-bg);
     backdrop-filter: var(--blured-effect);
-    padding: 15px 20px;
+    padding: 65px;
     display: flex;
-    justify-content: space-between;
+    gap: 160px;
     align-items: center;
     position: sticky;
     top: 135px;
     cursor: default;
     border-radius: 20px;
     z-index: 1;
-    height: 100px;
 }
 .contact-popout{
 
