@@ -47,13 +47,15 @@ nav{
 
 
 .subset-popout, .service-popout{
+    border: var(--main-border);
     background-color: var(--blured-bg);
     backdrop-filter: var(--blured-effect);
     padding: 65px;
     display: flex;
     gap: 160px;
     align-items: start;
-    position: sticky;
+    position: fixed;
+    left: 0;
     top: 135px;
     cursor: default;
     border-radius: 20px;
@@ -93,11 +95,25 @@ nav{
     color: var(--sec-font-clr);
     font: var(--FA-DSK-small-txt);
 }
-
-
 .contact-popout{
-
+    background-color: var(--blured-bg);
+    backdrop-filter: var(--blured-effect);
+    padding: 50px;
+    position: fixed;
+    left: 0;
+    top: 135px;
+    cursor: default;
+    border-radius: 20px;
+    z-index: 1;
 }
+.contact-title{
+    font: var(--FA-DSK-semi-header-txt);
+    color: var(--main-font-clr);
+}
+
+
+
+
 .language-popout{
 
 }
