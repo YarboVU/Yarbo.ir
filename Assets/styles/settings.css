@@ -2,42 +2,45 @@
 
 :root{
  /* Color Variables */
-    --main-bg: #0A0D11;
-    --sec-bg: #242424;
-    --blured-bg: rgba(10, 13, 17, 0.80); /* have to be added with blured efect variable */
-    --border-clr: #242424;
-    --approve-clr: #2FC179;
-    --cancel-clr: #B53F3F;
-    --active-clr: #3A8DE5;
+   --main-bg: #0A0D11;
+   --sec-bg: #242424;
+   --blured-bg: rgba(10, 13, 17, 0.80); /* have to be added with blured efect variable */
+   --border-clr: #242424;
+   --approve-clr: #2FC179;
+   --cancel-clr: #B53F3F;
+   --active-clr: #3A8DE5;
 
-    --headerCircle-first-color: rgba(36, 36, 36, 0.80);
-    --headerCircle-sec-color: rgba(36, 36, 36, 0.60);
-    --headerCircle-third-color: rgba(36, 36, 36, 0.30);
+   --headerCircle-first-color: rgba(36, 36, 36, 0.80);
+   --headerCircle-sec-color: rgba(36, 36, 36, 0.60);
+   --headerCircle-third-color: rgba(36, 36, 36, 0.30);
 
-    --blueCircle-first-color: var(--active-clr);
-    --blueCircle-sec-color: rgba(58, 141, 229, 0.60);
-    --blueCircle-third-color: rgba(58, 141, 229, 0.60);
+   --blueCircle-first-color: var(--active-clr);
+   --blueCircle-sec-color: rgba(58, 141, 229, 0.60);
+   --blueCircle-third-color: rgba(58, 141, 229, 0.60);
     
-    --forGamer-first-color: var(--approve-clr);
-    --forGamer-sec-color: rgba(47, 193, 121, 0.60);
-    --forGamer-third-color: rgba(47, 193, 121, 0.60);
+   --forGamer-first-color: var(--approve-clr);
+   --forGamer-sec-color: rgba(47, 193, 121, 0.60);
+   --forGamer-third-color: rgba(47, 193, 121, 0.60);
 
-    --forProgrammer-first-color: var(--active-clr);
-    --forProgrammer-sec-color: rgba(58, 141, 229, 0.60);
-    --forProgrammer-third-color: rgba(58, 141, 229, 0.60);
+   --forProgrammer-first-color: var(--active-clr);
+   --forProgrammer-sec-color: rgba(58, 141, 229, 0.60);
+   --forProgrammer-third-color: rgba(58, 141, 229, 0.60);
     
-    --forTrader-first-color: var(--cancel-clr);
-    --forTrader-sec-color: rgba(181, 63, 63, 0.60);
-    --forTrader-third-color: rgba(181, 63, 63, 0.60);
+   --forTrader-first-color: var(--cancel-clr);
+   --forTrader-sec-color: rgba(181, 63, 63, 0.60);
+   --forTrader-third-color: rgba(181, 63, 63, 0.60);
 
-    --forStudent-first-color: var(--sec-bg);
-    --forStudent-sec-color: rgba(36, 36, 36, 0.60);
-    --forStudent-third-color: rgba(36, 36, 36, 0.60);
+   --forStudent-first-color: var(--sec-bg);
+   --forStudent-sec-color: rgba(36, 36, 36, 0.60);
+   --forStudent-third-color: rgba(36, 36, 36, 0.60);
 
-    --main-font-clr: #FDFDFD;
-    --sec-font-clr: #7C7C7C;
-    --third-font-clr: #0A0D11;
-    --main-border: 1px solid var(--border-clr);
+   --main-font-clr: #FDFDFD;
+   --sec-font-clr: #7C7C7C;
+   --third-font-clr: #0A0D11;
+   --main-border: 1px solid var(--border-clr);
+
+   --active-button-clr: var(--active-clr);
+   --close-button-clr: var(--cancel-clr);
 
  /* Font Variables */
    --FA-DSK-big-num: 900 50px/80px IRANSansXFaNum;
@@ -84,6 +87,7 @@
 
  /* Size Variables */
    --DSK-margin: 150px;
+   --TAB-margin: 75px;
    --MB-margin: 25px;
 }
 
