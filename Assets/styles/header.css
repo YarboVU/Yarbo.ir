@@ -11,6 +11,8 @@ header{
     border-radius: 20px;
     z-index: 1;
 }
+
+
 nav{
     display: flex;
     align-items: center;
@@ -95,6 +97,8 @@ nav{
     color: var(--sec-font-clr);
     font: var(--FA-DSK-small-txt);
 }
+
+
 .contact-popout{
     background-color: var(--blured-bg);
     backdrop-filter: var(--blured-effect);
@@ -110,7 +114,15 @@ nav{
     font: var(--FA-DSK-semi-header-txt);
     color: var(--main-font-clr);
 }
+.contact-field{
+    
+}
+.contact-info{
 
+}
+.contact-textarea{
+
+}
 
 
 
