@@ -139,3 +139,6 @@ main{
 .arrow-reverse{
    transform: rotate(180deg);
 }
+*::placeholder{
+   color: var(--sec-font-clr);
+}

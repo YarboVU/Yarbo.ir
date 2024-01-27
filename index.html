@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="Assets/styles/hero-section.css">
     <link rel="stylesheet" href="Assets/styles/footer.css">
 </head>
-<body>
+<body spellcheck="false">
     <header>
         <div class="logo">
             <a href="#"><img src="Assets/icons/yarbo-logo.svg" alt="لوگو یاربو"></a>
@@ -176,9 +176,10 @@
         <h3 class="contact-title">راه های ارتباطی با ما</h3>
         <div class="contact-fields">
             <form action="">
-                <input class="contact-field contact-info" type="text">
-                <input class="contact-field contact-info" type="email">
-                <textarea class="contact-field contact-textarea" name="description" id="no"></textarea>
+                <input class="contact-field contact-info" pattern="[' ' آ-ی]+" placeholder="نام خود را به فارسی وارد کنید" title="لطفاً فقط از حروف فارسی و اعداد استفاده کنید." oninvalid="this.setCustomValidity('لطفا از حروف فارسی و بدون اعداد استفاده کنید')" type="text" required>
+                <input class="contact-field contact-info" placeholder="ایمیل خود را وارد کنید" oninvalid="this.setCustomValidity('لطفا ایمیلی که به آن دسترسی دارید را به انگلیسی وارد کنید')" type="email" required>
+                <textarea class="contact-field contact-textarea" placeholder="جزئیات درخواست یا توضیحات خود را بنویسید" oninvalid="this.setCustomValidity('لطفاً جزئیاتی از درخواست یا توضیحات خود برای ما بنویسید')" name="description" id="no" required></textarea>
+                <button type="submit">بزن روشششش</button>
             </form>
         </div>
     </div>

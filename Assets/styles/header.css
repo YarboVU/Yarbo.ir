@@ -113,15 +113,38 @@ nav{
 .contact-title{
     font: var(--FA-DSK-semi-header-txt);
     color: var(--main-font-clr);
+    margin-bottom: 35px;
 }
 .contact-field{
-    
+    caret-color: var(--sec-font-clr);
+    font: var(--FA-DSK-normal-txt);
+    -moz-font-feature-settings: "ss04";
+    -webkit-font-feature-settings: "ss04";
+    font-feature-settings: "ss04" !important;
+    padding: 15px;
+    color: var(--main-font-clr);
+    outline: none;
+    margin-bottom: 15px;
+    background-color: var(--blured-bg);
+    border: var(--main-border);
+    border-radius: 10px;
+    display: block;
+    min-width: 300px;
+    max-width: 300px;
+}
+.contact-field:last-child{
+    margin-bottom: 0;
+}
+.contact-field:focus:invalid{
+    border: 1px solid var(--cancel-clr);
+    transition: .3s;
 }
 .contact-info{
 
 }
 .contact-textarea{
-
+    min-height: 130px;
+    max-height: 200px;
 }
 
 
