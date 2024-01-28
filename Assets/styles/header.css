@@ -100,6 +100,7 @@ nav{
 
 
 .contact-popout{
+    border: var(--main-border);
     background-color: var(--blured-bg);
     backdrop-filter: var(--blured-effect);
     padding: 50px;
@@ -134,10 +135,6 @@ nav{
 }
 .contact-field:last-child{
     margin-bottom: 0;
-}
-.contact-field:focus:invalid{
-    border: 1px solid var(--cancel-clr);
-    transition: .3s;
 }
 .contact-info{
 
