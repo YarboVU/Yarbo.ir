@@ -11,8 +11,6 @@ header{
     border-radius: 20px;
     z-index: 1;
 }
-
-
 nav{
     display: flex;
     align-items: center;
@@ -145,10 +143,47 @@ nav{
 }
 
 
-
 .language-popout{
-
+    border: var(--main-border);
+    background-color: var(--blured-bg);
+    backdrop-filter: var(--blured-effect);
+    font: var(--FA-DSK-normal-txt);
+    padding: 35px;
+    position: fixed;
+    left: 0;
+    top: 135px;
+    cursor: default;
+    border-radius: 20px;
+    z-index: 1;
 }
+.language-grid{
+    display: grid;
+    grid-gap: 15px;
+}
+.language{
+    text-decoration: none;
+    color: var(--sec-font-clr);
+}
+.language:first-child{
+    color: var(--main-font-clr);
+}
+.language:hover{
+    color: var(--main-font-clr);
+    transition: .3s;
+}
+.language-group{
+    display: inline-flex;
+    gap: 15px;
+}
+
+
 .login-popout{
 
+}
+
+
+
+
+.contact-popout, .service-popout, .subset-popout{
+    display: none;
 }
