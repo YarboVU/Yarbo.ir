@@ -142,3 +142,25 @@ main{
 *::placeholder{
    color: var(--sec-font-clr);
 }
+
+.button{
+   display: inline-flex;
+   padding: 14px 20px;
+   background-color: var(--blured-bg);
+   backdrop-filter: var(--blured-effect);
+   border: var(--main-border);
+   color: var(--main-font-clr);
+   text-decoration: none;
+   border-radius: 10px;
+}
+.button:hover{
+   background-color: var(--active-clr);
+   transition: .3s;
+}
+
+.button-cancel{
+   border: 1px solid var(--cancel-clr);
+}
+.button-cancel:hover{
+   background-color: var(--cancel-clr);
+}
