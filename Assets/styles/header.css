@@ -178,12 +178,46 @@ nav{
 
 
 .login-popout{
-
+    border: var(--main-border);
+    background-color: var(--blured-bg);
+    backdrop-filter: var(--blured-effect);
+    font: var(--FA-DSK-normal-txt);
+    padding: 50px;
+    position: fixed;
+    left: 0;
+    top: 135px;
+    cursor: default;
+    border-radius: 20px;
+    z-index: 1;
+}
+.login-title{
+    font: var(--FA-DSK-semi-header-txt);
+    color: var(--main-font-clr);
+}
+.login-infos{
+    margin: 35px 0;
+    display: grid;
+    grid-gap: 15px;
+}
+.login-info{
+    color: var(--sec-font-clr);
+    width: 425px;
+}
+.login-info-link{
+    text-decoration: none;
+    color: var(--sec-font-clr);
+}
+.login-with-google{
+    display: inline-flex;
+    gap: 10px;
+}
+.login-buttons{
+    display: flex;
+    justify-content: space-around;
 }
 
 
 
-
-.contact-popout, .service-popout, .subset-popout{
+.contact-popout, .service-popout, .subset-popout, .language-popout{
     display: none;
 }
