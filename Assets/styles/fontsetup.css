@@ -18,57 +18,25 @@ This set of fonts are used in this project under the license: (0LMKTA5E)
 **/
 
 @font-face {
-	font-family: IRANSansX;
-	font-style: normal;
-	font-weight: 400;
-	src: url('../fonts/woff/IRANSansX-Regular.woff') format('woff'),   
-	url('../fonts/woff2/IRANSansX-Regular.woff2') format('woff2');		 
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/woff/IRANSansXFaNum-Medium.woff") format("woff"),
+    url("../fonts/woff2/IRANSansXFaNum-Medium.woff2") format("woff2");
 }
 
 @font-face {
-	font-family: IRANSansX;
-	font-style: normal;
-	font-weight: 800;
-	src: url('../fonts/woff/IRANSansX-ExtraBold.woff') format('woff'),   
-	url('../fonts/woff2/IRANSansX-ExtraBold.woff2') format('woff2');		 
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/woff/IRANSansXFaNum-ExtraBold.woff") format("woff"),
+    url("../fonts/woff2/IRANSansXFaNum-ExtraBold.woff2") format("woff2");
 }
 
 @font-face {
-	font-family: IRANSansX;
-	font-style: normal;
-	font-weight: 900;
-	src: url('../fonts/woff/IRANSansX-Black.woff') format('woff'),   
-	url('../fonts/woff2/IRANSansX-Black.woff2') format('woff2');		 
-}
-
-@font-face {
-	font-family: IRANSansX-num;
-	font-style: normal;
-	font-weight: bold;
-	src: url('../fonts/woff/IRANSansXFaNum-Bold.woff') format('woff'),   
-	url('../fonts/woff2/IRANSansXFaNum-Bold.woff2') format('woff2');	 
-}
-
-@font-face {
-	font-family: IRANSansX-num;
-	font-style: normal;
-	font-weight: 900;
-	src: url('../fonts/woff/IRANSansXFaNum-Black.woff') format('woff'),   
-	url('../fonts/woff2/IRANSansXFaNum-Black.woff2') format('woff2');		 
-}
-
-@font-face {
-	font-family: IRANSansX-num;
-	font-style: normal;
-	font-weight: 400;
-	src: url('../fonts/woff/IRANSansXFaNum-Regular.woff') format('woff'),   
-	url('../fonts/woff2/IRANSansXFaNum-Regular.woff2') format('woff2');		 
-}
-
-@font-face {
-	font-family: IntelOne;
-	font-style: normal;
-	font-weight: 500;
-	src: url('../fonts/woff/intelone-mono-font-family-medium.woff') format('woff'),   
-	url('../fonts/woff2/intelone-mono-font-family-medium.woff2') format('woff2');		 
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/woff/IRANSansXFaNum-Black.woff") format("woff"),
+    url("../fonts/woff2/IRANSansXFaNum-Black.woff2") format("woff2");
 }
