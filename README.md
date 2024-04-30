@@ -1,6 +1,2 @@
-Yarbo - Introduction
-🛠️ current status: *designing*
+Yarbo Computer Science Virtual University
 
-✔️ Done.
-⭕ Working on it (designing, Developing, Testing).
-❌ Not started yet.
