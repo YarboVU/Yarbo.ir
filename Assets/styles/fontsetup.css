@@ -12,7 +12,7 @@
 --------------------------------------------------------------------------------------
 IRANSansX fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com 
 --------------------------------------------------------------------------------------
-This set of fonts are used in this project under the license: (0LMKTA5E)
+This set of fonts are used in this project under the license: ()
 ------------------------------------------------------------------------------------- fonts/-
 *	
 **/
@@ -21,22 +21,19 @@ This set of fonts are used in this project under the license: (0LMKTA5E)
   font-family: IRANSansX;
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/woff/IRANSansXFaNum-Medium.woff") format("woff"),
-    url("../fonts/woff2/IRANSansXFaNum-Medium.woff2") format("woff2");
+  src: url("../fonts/woff2/IRANSansXFaNum-Medium.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: IRANSansX;
+  font-family: Kahroba;
   font-style: normal;
-  font-weight: 800;
-  src: url("../fonts/woff/IRANSansXFaNum-ExtraBold.woff") format("woff"),
-    url("../fonts/woff2/IRANSansXFaNum-ExtraBold.woff2") format("woff2");
+  font-weight: 700;
+  src: url("../fonts/woff2/KahrobaB.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: IRANSansX;
+  font-family: Kahroba;
   font-style: normal;
   font-weight: 900;
-  src: url("../fonts/woff/IRANSansXFaNum-Black.woff") format("woff"),
-    url("../fonts/woff2/IRANSansXFaNum-Black.woff2") format("woff2");
+  src: url("../fonts/woff2/KahrobaBL.woff2") format("woff2");
 }
