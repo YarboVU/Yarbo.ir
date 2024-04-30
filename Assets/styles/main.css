@@ -5,74 +5,54 @@
 
 :root {
   /* Color Variables */
-  --primary-bg: #0f0e13;
-  --secondary-bg: #10151d;
-  --border-clr: #181b20;
-  --approve-clr: #1d7b1b;
-  --cancel-clr: #b83a15;
-  --active-clr: #3669ec;
-  --blured-bg: rgba(
-    15,
-    14,
-    19,
-    0.8
-  ); /* have to be with blured effect variable */
-
-  --primary-font-clr: #ffffff;
-  --secondary-font-clr: #555457;
-
-  --border: 1px solid var(--border-clr);
+  --primary-bg: #0D1117;
+  --secondary-bg: #161B22;
+  --border-clr: #30363D;
+  --active-clr: #1F6FEB;
+  --primary-font-clr: #FFFFFF;
+  --secondary-font-clr: #848D97;
+  --placeholder-font-clr: #444950;
 
   /* Font Variables */
-  --FA-DSK-intro-txt: 900 50px/180% IRANSansX;
-  --FA-DSK-header-txt: 900 32px/180% IRANSansX;
-  --FA-DSK-semi-header-txt: 800 24px/180% IRANSansX;
+  --FA-DSK-intro-txt: 900 80px/180% Kahroba;
+  --FA-DSK-header-txt: 700 32px/180% Kahroba;
+  --FA-DSK-semi-header-txt: 700 24px/180% Kahroba;
   --FA-DSK-normal-txt: 500 16px/180% IRANSansX;
   --FA-DSK-small-txt: 500 13px/180% IRANSansX;
 
-  --FA-MB-intro-txt: 900 40px/180% IRANSansX;
-  --FA-MB-header-txt: 900 24px/180% IRANSansX;
-  --FA-MB-semi-header-txt: 800 18px/180% IRANSansX;
+  --FA-TBL-intro-txt: 900 65px/180% Kahroba;
+  --FA-TBL-header-txt: 700 28px/180% Kahroba;
+  --FA-TBL-semi-header-txt: 700 21px/180% Kahroba;
+  --FA-TBL-normal-txt: 500 15px/180% IRANSansX;
+  --FA-TBL-small-txt: 500 12px/180% IRANSansX;
+
+  --FA-MB-intro-txt: 900 40px/180% Kahroba;
+  --FA-MB-header-txt: 700 24px/180% Kahroba;
+  --FA-MB-semi-header-txt: 700 18px/180% Kahroba;
   --FA-MB-normal-txt: 500 14px/180% IRANSansX;
   --FA-MB-small-txt: 500 11px/180% IRANSansX;
 
-  --EN-DSK-intro-txt: ; /* to be completed in future */
-  --EN-DSK-header-txt: ;
-  --EN-DSK-semi-header-txt: ;
-  --EN-DSK-normal-txt: ;
-  --EN-DSK-small-txt: ;
-
-  --EN-MB-intro-txt: ;
-  --EN-MB-header-txt: ;
-  --EN-MB-semi-header-txt: ;
-  --EN-MB-normal-txt: ;
-  --EN-MB-small-txt: ;
-
-  /* Effect Variables */
-  --blured-effect: blur(37.5px);
   --transition-time: 0.2s;
+  --border: 1px solid var(--border-clr);
 
   /* Size Variables */
-  --DSK-padding: 150px;
-  --TAB-padding: 75px;
-  --MB-padding: 25px;
+  --DSK-win-padding: 230px;
+  --TBL-win-padding: 130px;
+  --MB-win-padding: 30px;
+  --button-padding: 20px;
+  --DSK-popout-padding: ;
+  --TBL-popout-padding: ;
+  --MB-popout-padding: ;
+  --DSK-card-padding: ;
+  --TBL-card-padding: ;
+  --MB-card-padding: ;
 
-  --button-padding: 12px 20px;
-  --big-button-padding: 20px;
-  --ico-button-padding: 14px;
-  --footer-padding: 50px;
-
-  --card-padding: 30px;
-  --podcastcard-ep-padding: 5px 15px;
-
-  --ico-size: 25px;
-  --course-ico-size: 20px;
+  --DSK-icon-size: 25px;
+  --TBL-icon-size: 25px;
+  --MB-icon-size: 21px;
+  --course-ico-size: ;
 }
 
-* {
-  font-size: 100%;
-  font-family: IRANSansX;
-}
 html,
 body,
 div,
@@ -157,6 +137,7 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
+  font-size: 100%;
   white-space: 0;
 }
 ol,
@@ -184,27 +165,15 @@ body {
   max-width: 2560px;
 }
 *::placeholder {
-  color: var(--secondary-font-clr);
+  color: var(--placeholder-font-clr);
 }
 .button {
   display: inline-flex;
   padding: var(--button-padding);
   color: var(--primary-font-clr);
   background-color: var(--secondary-bg);
+  border: var(--border);
   transition: var(--transition-time);
-}
-.ico-button {
-  display: inline-flex;
-  padding: var(--ico-button-padding);
-  color: var(--primary-font-clr);
-  background-color: var(--secondary-bg);
-  transition: var(--transition-time);
-}
-.approve-button {
-  background-color: var(--active-clr);
-}
-.cancel-button:hover {
-  background-color: var(--cancel-clr);
 }
 
 @media (min-width: 0) and (max-width: 699px) {
@@ -214,7 +183,7 @@ body {
 }
 @media (min-width: 700px) and (max-width: 1199px) {
   body {
-    padding: 0 var(--TAB-padding);
+    padding: 0 var(--TBL-padding);
   }
 }
 @media (min-width: 1199px) {
