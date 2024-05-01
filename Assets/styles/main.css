@@ -178,16 +178,16 @@ body {
 
 @media (min-width: 0) and (max-width: 699px) {
   body {
-    padding: 0 var(--MB-padding);
+    padding: 0 var(--MB-win-padding);
   }
 }
 @media (min-width: 700px) and (max-width: 1199px) {
   body {
-    padding: 0 var(--TBL-padding);
+    padding: 0 var(--TBL-win-padding);
   }
 }
 @media (min-width: 1199px) {
   body {
-    padding: 0 var(--DSK-padding);
+    padding: 0 var(--DSK-win-padding);
   }
 }
