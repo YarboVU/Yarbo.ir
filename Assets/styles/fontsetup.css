@@ -1,8 +1,8 @@
 /**
 *
-*	Name:			IRANSansX Fonts
+*	Name:			IRANSansX & Kahroba Fonts
 *	Version:			3
-*	Author:			Moslem Ebrahimi (moslemebrahimi.com)
+*	Author:			Moslem Ebrahimi & Amin Abedi
 *	Created on:		Apr 22, 2021
 *	Updated on:		Jul 12, 2023
 *	Website:			http://fontiran.com
@@ -10,9 +10,9 @@
 --------------------------------------------------------------------------------------
 فونتایران سنس Xا یک نرم افزار مالکیتی محسوب می شود. جهت آگاهی از قوانین استفاده از این فونت ها لطفا به وب سایت (فونت ایران دات کام) مراجعه نمایید
 --------------------------------------------------------------------------------------
-IRANSansX fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com 
+IRANSansX and Kahroba fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com 
 --------------------------------------------------------------------------------------
-This set of fonts are used in this project under the license: ()
+This set of fonts are used in this project under the license: Kahroba: L7QKCD5I, IRANSansX: 0LMKTA5E
 ------------------------------------------------------------------------------------- fonts/-
 *	
 **/
@@ -20,20 +20,18 @@ This set of fonts are used in this project under the license: ()
 @font-face {
   font-family: IRANSansX;
   font-style: normal;
-  font-weight: 500;
-  src: url("../fonts/woff2/IRANSansXFaNum-Medium.woff2") format("woff2");
+  font-weight: 400;
+  src: url("../fonts/woff2/IRANSansX-Regular.woff2") format("woff2");
 }
-
 @font-face {
   font-family: Kahroba;
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/woff2/KahrobaB.woff2") format("woff2");
+  src: url("../fonts/woff2/Kahroba-FD-B.woff2") format("woff2");
 }
-
 @font-face {
   font-family: Kahroba;
   font-style: normal;
   font-weight: 900;
-  src: url("../fonts/woff2/KahrobaBL.woff2") format("woff2");
+  src: url("../fonts/woff2/Kahroba-FD-BL.woff2") format("woff2");
 }

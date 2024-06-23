@@ -11,147 +11,55 @@
   --active-clr: #1F6FEB;
   --primary-font-clr: #FFFFFF;
   --secondary-font-clr: #848D97;
-  --placeholder-font-clr: #444950;
+  --placeholder-font-clr: #3F4449;
 
   /* Font Variables */
-  --FA-DSK-intro-txt: 900 80px/180% Kahroba;
-  --FA-DSK-header-txt: 700 32px/180% Kahroba;
-  --FA-DSK-semi-header-txt: 700 24px/180% Kahroba;
+  --FA-DSK-intro-txt: 900 68px/180% Kahroba;
+  --FA-DSK-header-txt: 700 42px/180% Kahroba;
+  --FA-DSK-semi-header-txt: 700 25px/180% Kahroba;
   --FA-DSK-normal-txt: 500 16px/180% IRANSansX;
-  --FA-DSK-small-txt: 500 13px/180% IRANSansX;
+  --FA-DSK-small-txt: 500 10px/180% IRANSansX;
 
-  --FA-TBL-intro-txt: 900 65px/180% Kahroba;
-  --FA-TBL-header-txt: 700 28px/180% Kahroba;
-  --FA-TBL-semi-header-txt: 700 21px/180% Kahroba;
-  --FA-TBL-normal-txt: 500 15px/180% IRANSansX;
-  --FA-TBL-small-txt: 500 12px/180% IRANSansX;
-
-  --FA-MB-intro-txt: 900 40px/180% Kahroba;
-  --FA-MB-header-txt: 700 24px/180% Kahroba;
-  --FA-MB-semi-header-txt: 700 18px/180% Kahroba;
-  --FA-MB-normal-txt: 500 14px/180% IRANSansX;
-  --FA-MB-small-txt: 500 11px/180% IRANSansX;
+  --FA-MB-intro-txt: 900 45px/180% Kahroba;
+  --FA-MB-header-txt: 700 39.3px/180% Kahroba;
+  --FA-MB-semi-header-txt: 700 24.3px/180% Kahroba;
+  --FA-MB-normal-txt: 500 15px/180% IRANSansX;
+  --FA-MB-small-txt: 500 9.3px/180% IRANSansX;
 
   --transition-time: 0.2s;
   --border: 1px solid var(--border-clr);
 
   /* Size Variables */
-  --DSK-win-padding: 230px;
-  --TBL-win-padding: 130px;
+  --DSK-win-padding: 240px;
+  --TBL-win-padding: 140px;
   --MB-win-padding: 30px;
+
   --button-padding: 20px;
-  --DSK-popout-padding: ;
-  --TBL-popout-padding: ;
-  --MB-popout-padding: ;
-  --DSK-card-padding: ;
-  --TBL-card-padding: ;
-  --MB-card-padding: ;
+  --DSK-popout-padding: 50px;
+  --MB-popout-padding: 40px;
+  --DSK-card-padding: 30px;
+  --MB-card-padding: 30px;
 
   --DSK-icon-size: 25px;
-  --TBL-icon-size: 25px;
+  --DSK-sec-icon-size: 21px;
   --MB-icon-size: 21px;
   --course-ico-size: ;
 }
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
   white-space: 0;
 }
-ol,
-ul {
+ol, ul {
   list-style: none;
 }
-blockquote,
-q {
+blockquote, q {
   quotes: none;
 }
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+blockquote:before, blockquote:after, q:before, q:after {
   content: "";
   content: none;
 }
