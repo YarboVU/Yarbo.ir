@@ -5,3 +5,40 @@ main{
     -webkit-font-feature-settings: "ss01";
     font-feature-settings: "ss01";
 }
+.hero-section{
+    border: var(--border);
+    margin: 130px 0;
+    padding: 90px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-intro-text{
+    font: var(--FA-DSK-intro-txt);
+    margin-bottom: 50px;
+}
+.hero-info-section{
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+}
+.hero-info-text{
+    display: inline-flex;
+    align-items: center;
+    color: var(--secondary-font-clr);
+    gap: 10px;
+}
+.hero-info-imgs{
+    display: inline-flex;
+    align-items: center;
+}
+.hero-info-imgs > img{
+    width: 30px;
+    height: 30px;
+    background-color: var(--secondary-bg);
+    border-radius: 50px;
+    border: var(--border);
+}
+.hero-info-imgs > img:nth-child(2),.hero-info-imgs > img:nth-child(3){
+    margin-right: -15px;
+}

@@ -70,18 +70,37 @@ table {
 body {
   background-color: var(--primary-bg);
   overflow-x: hidden;
-  max-width: 2560px;
+  max-width: 1920px;
+  margin: auto;
 }
 *::placeholder {
   color: var(--placeholder-font-clr);
 }
+
 .button {
   display: inline-flex;
+  align-items: center;
+  gap: 50px;
   padding: var(--button-padding);
   color: var(--primary-font-clr);
   background-color: var(--secondary-bg);
   border: var(--border);
   transition: var(--transition-time);
+  border-radius: 10px;
+  font: var(--FA-DSK-normal-txt);
+  text-decoration: none;
+}
+.button-icon {
+  fill: var(--secondary-font-clr);
+  width: 25px;
+  height: 25px;
+}
+.button:hover .button-icon {
+  fill: var(--primary-font-clr);
+  transition: var(--transition-time);
+}
+.button:hover{
+  background-color: var(--active-clr);
 }
 
 @media (min-width: 0) and (max-width: 699px) {
